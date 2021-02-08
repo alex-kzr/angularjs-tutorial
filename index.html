@@ -2,10 +2,12 @@
 <html ng-app="">
 <head>
     <meta charset="UTF-8">
-    <title>AngularJS | Tutorial</title>
+    <title>AngularJS | ng-init </title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
 <body>
-    <div ng-init="language='AngularJS'">{{ language }}</div>
+    <div ng-init="language='AngularJS'">
+        Your Preffered Language : <input type="text" ng-model="language"> {{ language }}
+    </div>
 </body>
 </html>
